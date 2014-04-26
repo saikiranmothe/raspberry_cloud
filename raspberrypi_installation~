@@ -1,0 +1,44 @@
+Install Screenlyapp On Raspberry-PI
+=========================================
+
+==------------------
+  Requirements  - http://www.screenlyapp.com/ose.html
+=============
+
+Before you begin, you need to make sure you have the following:
+--------------------------------------------------------------
+   - A Raspberry Pi (Model B).
+   - An SD Card (>4GB). Class 10 is highly recommended.
+   - An HDMI-cable.
+   - A network connection (with DHCP).
+   - A keyboard (only required for the installation).
+   - A monitor/TV that can view full HD (and has HDMI input).
+
+
+1.Download Image from Source
+	
+
+Download the custom image: http://releases.screenlyapp.com/2013-11-18-Screenly_OSE_4GB.zip
+
+
+2. Boot image to SD CARD 
+  --  We recommend that you use Win32 Disk Imager to do this. The process is straight forward.
+
+3.After booting,once demo video completes press
+	CTRL+ALT+1
+
+4.LOGIN WITH
+		user 'pi' and the password 'raspberry'
+5.sudo raspi-config
+6.you must restart your Raspberry Pi
+7.changes and rebooted, open a terminal (ctrl+alt+F1)
+
+== login as a PI user 
+
+8.curl -sL https://raw.github.com/wireload/screenly-ose/master/misc/install.sh | bash
+
+
+
+{ reboot your system}  
+
+Browse for ::  http://localhost:8080). 
