@@ -25,7 +25,7 @@ Download the custom image: http://releases.screenlyapp.com/2013-11-18-Screenly_O
   --  We recommend that you use Win32 Disk Imager to do this. The process is straight forward.
 
 3.After booting,once demo video completes press
-	CTRL+ALT+1
+	CTRL+ALT+F1
 
 4.LOGIN WITH
 		user 'pi' and the password 'raspberry'
